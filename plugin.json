@@ -1,0 +1,16 @@
+{
+ "name": "MysqlFixTimeout",
+ "version": "0.1.0",
+ "description": "Set the wait_timeout for console archiving process",
+ "theme": false,
+ "require": {
+    "piwik": ">=PIWIK_VERSION"
+ },
+ "authors": [
+     {
+         "name": "Gregory Boddin",
+         "email": "gregory@siwhine.net",
+         "homepage": "https://github.com/gboddin/PiwikMysqlFixTimeout"
+     }
+ ]
+}
