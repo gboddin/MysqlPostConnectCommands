@@ -16,7 +16,7 @@ class MysqlFixTimeout extends \Piwik\Plugin
     public function getListHooksRegistered()
     {
         return array(
-            'CronArchive.init.finish' => 'setTimeout'
+            'API.Request.dispatch' => 'setTimeout'
         );
     }
 
