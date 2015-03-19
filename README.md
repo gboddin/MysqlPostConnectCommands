@@ -1,3 +1,8 @@
+DO NOT USE THIS PLUGIN :
+
+ - I wrongly assumed the console script was directly connection to the database, this is not the case ...
+ - Fixing needed : move the logic to the API event
+ 
 Usage :
 
 ```
