@@ -1,7 +1,7 @@
 {
- "name": "MysqlFixTimeout",
- "version": "0.1.0",
- "description": "Set the wait_timeout for console archiving process",
+ "name": "MysqlPostConnectCommands",
+ "version": "0.1.3",
+ "description": "Send a set of SQL commands after the Archive CRON connected to the database",
  "theme": false,
  "require": {
     "piwik": ">=PIWIK_VERSION"
@@ -10,7 +10,7 @@
      {
          "name": "Gregory Boddin",
          "email": "gregory@siwhine.net",
-         "homepage": "https://github.com/gboddin/PiwikMysqlFixTimeout"
+         "homepage": "https://github.com/gboddin/MysqlPostConnectCommands"
      }
  ]
 }
