@@ -2,6 +2,6 @@
   "MysqlPostConnectCommands": {
     "SettingsIntroduction": "The MysqlPostConnectCommands allows you to run SQL requests before the CRON archiving process starts",
     "GlobalSettingTitle": "List of request to send before starting the CRON archiving process",
-    "GlobalSettingDescription": "Separate your requests with a \";\""
+    "GlobalSettingDescription": "One query per line. End your query with \";\""
   }
 }
