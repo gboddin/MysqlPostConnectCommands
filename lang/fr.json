@@ -1,0 +1,7 @@
+{
+  "MysqlPostConnectCommands": {
+    "SettingsIntroduction": "Le plugin MysqlPostConnectCommands vous permet d'envoyer plusieurs query MySQL avant l'archivage CRON",
+    "GlobalSettingTitle": "Requetes a envoyer avant l'archivage CRON",
+    "GlobalSettingDescription": "Liste des requetes a envoyer avant l'archivage. Separez celles-ci par un \";\""
+  }
+}
