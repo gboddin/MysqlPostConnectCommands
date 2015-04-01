@@ -27,7 +27,7 @@ class MysqlPostConnectCommands extends \Piwik\Plugin
       //if its MySQL
       if($dbConfig['adapter'] == 'PDO\MYSQL'){
         $settings = new Settings();
-        $queries = $settings->globalEnabled->getValue();
+        $queries = $settings->MysqlPostConnectCommands->getValue();
         foreach (explode(PHP_EOL,$queries) as $query) {
           \Piwik\Db::query($query);
         }
