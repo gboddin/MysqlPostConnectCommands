@@ -1,6 +1,6 @@
 {
  "name": "MysqlPostConnectCommands",
- "version": "0.1.3",
+ "version": "0.1.4",
  "description": "Send a set of SQL commands after the Archive CRON connected to the database",
  "theme": false,
  "require": {
