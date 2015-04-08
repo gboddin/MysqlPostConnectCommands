@@ -16,7 +16,7 @@ class MysqlPostConnectCommands extends \Piwik\Plugin
     public function getListHooksRegistered()
     {
         return array(
-            'CronArchive.init.finish' => 'sendPostConnectQueries'
+            'API.Request.dispatch' => 'sendPostConnectQueries'
         );
     }
 
